@@ -20,9 +20,6 @@ const App: FC<Props> = () => {
                               <Route path={["/login", "/signup"]} exact>
                                    <Auth />
                               </Route>
-                              <Route path={["/dashboard"]} exact>
-                                   <Redirect to="/dashboard" />
-                              </Route>
                               <Route>
                                    <NotFoundPage />
                               </Route>
